@@ -5,7 +5,7 @@ import org.apache.spark.sql._
 import org.apache.log4j._
 import java.util.Calendar
 
-object big-data-test {  
+object spark-read {  
   /** Our main function where the action happens */
   def main(args: Array[String]) {
         
