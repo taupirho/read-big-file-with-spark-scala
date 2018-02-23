@@ -24,4 +24,5 @@ I ran this on a Windows 7 PC with 16Gbytes of ram using scala version 2.1 and sc
 
 The job took 48 minutes to complete but bear in mind there would still have to be a bit of post processing to be done to 
 collect all the disparate files together. This compares with the 18 minutes it took to process the same file using just 
-python 3.6 on the same PC, the 54 minutes it took a C program to process it on an HP Alpha box
+python 3.6 on the same PC, 36 minutes using spark-python on the same PC and a whopping the 54 minutes it 
+took a C program to process it on an HP Alpha box
