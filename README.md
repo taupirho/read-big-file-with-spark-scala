@@ -1,5 +1,5 @@
 # read-big-file-with-spark-scala
-The last of my three part case study on how I got on reading a big file with C, Python, spark-python and this - spark-scala
+The third of my three part case study on how I got on reading a big file with C, Python, spark-python and this - spark-scala
 
 As a reminder, I'm trying to read the same big file (21 Gbytes) we read before with C, python, spark-python but 
 this time using spark-scala. It's not a true test as we are only running this on my local PC not on a proper 
