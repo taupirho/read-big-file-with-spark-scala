@@ -24,7 +24,7 @@ The second field in the above file can range between 1 and 56 and the goal was t
 file so that all the records with the same value for the second field would be grouped together in the same file. i.e we 
 would end up with 56 separate files, period1.txt, period2.txt ... period56.txt each containing approximately 6 million records.
 
-I ran this on a Windows 7 PC with 16Gbytes of ram using scala version 2.1 and scala IDE build of eclipse.I used the same "big file" as was used in my other repositories - read-big-file-with-python and read-big-file-withspark-python.
+I ran this on a Windows 7 PC with 16Gbytes of ram using scala version 2.1 and scala IDE build of eclipse.I used the same "big file" as was used in my other repositories - read-big-file-with-python and read-big-file-with-spark-python.
 
 The job took 48 minutes to complete but bear in mind there would still have to be a bit of post processing to be done to 
 collect all the disparate files together. This compares with the 18 minutes it took to process the same file using just 
